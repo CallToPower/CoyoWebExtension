@@ -1,0 +1,81 @@
+{
+  "extensionName": {
+    "message": "COYO",
+    "description": "Name der Erweiterung."
+  },
+
+  "extensionDescription": {
+    "message": "Sammelt und verarbeitet Informationen der aktuellen COYO-Applikation.",
+    "description": "Beschreibung der Erweiterung."
+  },
+
+  "showConfig": {
+    "message": "Konfigurations-Daten anzeigen",
+    "description": "Aktions-Button-Name"
+  },
+
+  "showUser": {
+    "message": "Nutzer-Daten anzeigen",
+    "description": "Aktions-Button-Name"
+  },
+
+  "showL10n": {
+    "message": "Lokalisations-Daten anzeigen",
+    "description": "Aktions-Button-Name"
+  },
+
+  "errorContent": {
+    "message": "<p>Es ist nicht möglich, Daten auf nicht-COYO-Websites zu extrahieren.</p><p>Bitte eine andere Seite öffnen.</p>",
+    "description": "Fehlernachricht für Standard-Fehler"
+  },
+
+  "errorNotLoggedIn": {
+    "message": "<p>Es ist kein Nutzer eingeloggt.</p><p>Bitte einloggen und die Seite aktualisieren, um Nutzer-Informationen angezeigt zu bekommen.</p>",
+    "description": "Fehlernachricht, wenn der Nutzer nicht eingeloggt ist"
+  },
+
+  "headerDataConfig": {
+    "message": "Konfigurations-Daten",
+    "description": "Header für Konfigurations-Daten"
+  },
+
+  "headerDataUser": {
+    "message": "Nutzer-Daten",
+    "description": "Header für Nutzer-Daten"
+  },
+
+  "headerDataUserName": {
+    "message": "Nutzer-Daten für $1",
+    "description": "Header für Nutzer-Daten mit Nutzerinformationen"
+  },
+
+  "headerDataL10n": {
+    "message": "Lokalisations-Daten",
+    "description": "Header für L10n-Daten"
+  },
+
+  "keyAvailableLanguageKeys": {
+    "message": "Verfügbare Sprachen",
+    "description": "Schlüssel für die verfügbaren Sprachen"
+  },
+
+  "keyTranslationTable": {
+    "message": "Übersetzungs-Tabelle",
+    "description": "Schlüssel für die Übersetzungs-Tabelle"
+  },
+
+  "numberElements": {
+    "message": "#Elemente:",
+    "description": "Anzahl von Elementen"
+  },
+
+  "numberKeys": {
+    "message": "#Schlüssel:",
+    "description": "Anzahl von Schlüsseln"
+  },
+
+  "downloadAs": {
+    "message": "Download als \"$1\"-Datei",
+    "description": "Download-Information"
+  }
+}

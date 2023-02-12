@@ -1,0 +1,81 @@
+{
+  "extensionName": {
+    "message": "COYO",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Gathers and processes information of the current COYO application.",
+    "description": "Description of the extension."
+  },
+
+  "showConfig": {
+    "message": "Show configuration data",
+    "description": "Action button name"
+  },
+
+  "showUser": {
+    "message": "Show user data",
+    "description": "Action button name"
+  },
+
+  "showL10n": {
+    "message": "Show localization data",
+    "description": "Action button name"
+  },
+
+  "errorContent": {
+    "message": "<p>It is not possible to extract data on non-COYO websites.</p><p>Open a different site.</p>",
+    "description": "Error message for standard errors"
+  },
+
+  "errorNotLoggedIn": {
+    "message": "<p>No User is logged in.</p><p>Log in and refresh the page to view user information.</p>",
+    "description": "Error message when the user is not logged in"
+  },
+
+  "headerDataConfig": {
+    "message": "Configuration data",
+    "description": "Header for configuration data"
+  },
+
+  "headerDataUser": {
+    "message": "User data",
+    "description": "Header for user data"
+  },
+
+  "headerDataUserName": {
+    "message": "User data for $1",
+    "description": "Header for user data with user information"
+  },
+
+  "headerDataL10n": {
+    "message": "Localization data",
+    "description": "Header for l10n data"
+  },
+
+  "keyAvailableLanguageKeys": {
+    "message": "Available languages",
+    "description": "Key for the available language keys"
+  },
+
+  "keyTranslationTable": {
+    "message": "Translation Table",
+    "description": "Key for the translation table"
+  },
+
+  "numberElements": {
+    "message": "#Elements:",
+    "description": "Number of elements"
+  },
+
+  "numberKeys": {
+    "message": "#Keys:",
+    "description": "Number of keys"
+  },
+
+  "downloadAs": {
+    "message": "Download as \"$1\" file",
+    "description": "Download information"
+  }
+}

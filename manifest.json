@@ -1,0 +1,47 @@
+{
+  
+  "manifest_version": 2,
+
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.0",
+  "author": "Denis Meyer",
+
+  "default_locale": "en",
+
+  "applications": {
+    "gecko": {
+      "id": "coyo@web-extension",
+      "strict_min_version": "57.0"
+    }
+  },
+
+  "icons": {
+    "16": "icons/coyo-logo-16.png",
+    "32": "icons/coyo-logo-32.png",
+    "48": "icons/coyo-logo-48.png",
+    "128": "icons/coyo-logo-128.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/coyo-logo-32.png",
+    "theme_icons": [
+      {
+        "light": "icons/coyo-logo-32-light.png",
+        "dark": "icons/coyo-logo-32.png",
+        "size": 32
+      }
+    ]
+  },
+
+  "web_accessible_resources": [
+    "content_scripts/dataretriever.js"
+  ]
+
+}
